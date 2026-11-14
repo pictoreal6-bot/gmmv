@@ -1,0 +1,12 @@
+name = "godigamuwa-results-portal"
+pages_build_output_dir = "."
+compatibility_date = "2026-11-14"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "godigamuwa-results"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[vars]
+# Do not put ADMIN_KEY here. Set it as a Cloudflare secret.
